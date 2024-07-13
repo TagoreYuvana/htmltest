@@ -1,3 +1,3 @@
-FROM ngnix:alpine
+FROM nginx:alpine
 
 COPY . /usr/share/ngnix/htmltest/html
